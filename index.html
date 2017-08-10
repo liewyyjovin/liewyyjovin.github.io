@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div id="contents" class="l-container">
+	<section class="l-section">
+		<div class="section-inner">
+			<div class="section-header">
+				<h2 class="header-title"><span class="title-label">最近記事</span></h2>
+			</div>
+			<div class="section-container">
+				<div class="c-article-list">
+					<div class="list-item">
+                        {% for post in site.posts %}
+                        <a class="item-pointer" href="{{post.url}}">
+                            <h2 class="item-title">{{post.title}}</h2>
+						<div class="item-arrow">
+							<i class="fa fa-angle-right"></i>
+						</div>
+						<ul class="item-metas">
+                            <li class="metas-item mod-date"><time>{{post.date | date_to_string}}</time></li>
+                            {% assign sortedCategories = post.categories | sort %}
+                            {% for category in sortedCategories %}
+                            <li class="metas-item mod-tags">#{{ category }}</li>
+                            {% endfor %}
+						</ul></a>
+                        {% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

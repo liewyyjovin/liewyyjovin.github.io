@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+    <article class="l-container" id="contents">
+		<div class="l-page-header">
+			<div class="page-header-title">
+				<span class="title-label">blog</span>
+			</div>
+		</div>
+		<div class="l-article-header">
+            <h1 class="article-header-title"><span class="title-label">{{page.title}}</span></h1>
+			<ul class="article-header-metas">
+                <li class="metas-item mod-date"><time datetime="{{page.date}}">{{page.date | date_to_string}}</time></li>
+                <li class="metas-item mod-author">{{page.author}}</li>
+			</ul>
+            <!-- Tagging --!>
+            <ul class="article-header-tags">
+                <div class="tags">
+                    {% assign sortedCategories = page.categories | sort %}
+                    {% for category in sortedCategories %}
+                        <span class="tag">
+                            <a href="/category/{{ category }}">#{{ category }}</a>
+                        </span>
+                    {% endfor %}
+                </div>
+			</ul>
+            <!-- End Tagging --!>
+        <section class="l-section">
+			<div class="section-inner">
+				<div class="section-container">
+					<div class="c-editable">
+                        {{content}}
+					</div>
+				</div>
+			</div>
+		</section>
+		</div>
+	</article>
+	<section class="l-section">
+		<div class="section-inner">
+			<div class="section-header">
+				<h2 class="header-title"><span class="title-label"><font><font>Comment · Feedback</font></font></span></h2>
+			</div>
+			<div class="section-container">
+                {% include disqus_comments.html %}
+			</div>
+		</div>
+	</section>

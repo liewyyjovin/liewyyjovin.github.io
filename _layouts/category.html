@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<header class='l-page-header'>
+    <h1 class='page-header-title'>
+        <span class='title-label'>tag</span>
+    </h1>
+    <div class="l-article-header">
+        <h1 class='article-header-title'>
+            <span class="title-label">#{{ page.tag }}</span>
+        </h1>
+    </div>
+</header>
+
+<div id="contents" class="l-container">
+    <section class="l-section">
+        <div class="section-inner">
+            <div class="section-container">
+                <div class="c-article-list">
+                    <div class="list-item">
+                        {% for post in site.categories[page.tag] %}
+                            <a class="item-pointer" href={{post.url}}>
+                                <h2 class="item-title">{{post.title}}</h2>
+                            <div class="item-arrow">
+                                <i class="fa fa-angle-right"></i>
+                            </div>
+                            <ul class="item-metas">
+                                <li class="metas-item mod-date"><time>{{post.date | date_to_string}}</time></li>
+                                {% assign sortedCategories = post.categories | sort %}
+                                {% for category in sortedCategories %}
+                                <li class="metas-item mod-tags">#{{category}}</li>
+                                {% endfor %}
+                            </ul></a>
+                            {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
