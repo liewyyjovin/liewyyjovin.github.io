@@ -1,0 +1,17 @@
+404.html filter=lfs diff=lfs merge=lfs -text
+Gemfile.lock filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+_config.yml filter=lfs diff=lfs merge=lfs -text
+_layouts filter=lfs diff=lfs merge=lfs -text
+images filter=lfs diff=lfs merge=lfs -text
+Gemfile filter=lfs diff=lfs merge=lfs -text
+TODO.txt filter=lfs diff=lfs merge=lfs -text
+_drafts filter=lfs diff=lfs merge=lfs -text
+_includes filter=lfs diff=lfs merge=lfs -text
+_site filter=lfs diff=lfs merge=lfs -text
+tags.html filter=lfs diff=lfs merge=lfs -text
+_category filter=lfs diff=lfs merge=lfs -text
+archives.html filter=lfs diff=lfs merge=lfs -text
+_posts filter=lfs diff=lfs merge=lfs -text
+css filter=lfs diff=lfs merge=lfs -text
+index.html filter=lfs diff=lfs merge=lfs -text
