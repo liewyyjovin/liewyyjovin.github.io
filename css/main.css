@@ -10644,19 +10644,19 @@ a:active {
     border: 1px solid #2a4887;
     background: #2a4887
 }
-.l-footer .footer-sns-button-list .list-item.type-hatebu .item-share {
-    color: #2c6ebd;
-    border: 1px solid #2c6ebd
+.l-footer .footer-sns-button-list .list-item.type-linkedin .item-share {
+    color: #0077B5;
+    border: 1px solid #0077B5
 }
-.l-footer .footer-sns-button-list .list-item.type-hatebu .item-share:hover {
-    border: 1px solid #1b5dac;
-    background: #1b5dac
+.l-footer .footer-sns-button-list .list-item.type-linkedin .item-share:hover {
+    border: 1px solid #0077B5;
+    background: #0077B5
 }
-.l-footer .footer-sns-button-list .list-item.type-pocket .item-share {
+.l-footer .footer-sns-button-list .list-item.type-email .item-share {
     color: #ee4056;
     border: 1px solid #ee4056
 }
-.l-footer .footer-sns-button-list .list-item.type-pocket .item-share:hover {
+.l-footer .footer-sns-button-list .list-item.type-email .item-share:hover {
     border: 1px solid #dd2f45;
     background: #dd2f45
 }

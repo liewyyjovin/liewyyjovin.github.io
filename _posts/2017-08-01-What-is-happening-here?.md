@@ -33,7 +33,7 @@ In fact, this has been a long standing project that was constantly shelved in my
 
 3) In case I become too busy to add new content, this blog also serves as a memory database for my ageing brain.
 
-4) My vision for this blog is to make it a personal directory. One where I have everything from links to different projects to book reviews, travel reviews and so on ...
+4) My vision for this blog is to make it a personal directory. One where I have everything from links to different projects to book reviews, travel reviews and so on.
 
 5) Once I publish something, I will not edit the post. I will only do so explicitly (Add in an Edited tag or something at the bottom of the article), unless it is a negligble change.
 
@@ -42,7 +42,7 @@ In fact, this has been a long standing project that was constantly shelved in my
 ## **Features to be built**
 &nbsp;
 
-Just for myself to note, these are the features that I would built in the future if time and energy permits. If you see something that is blank or wandered into a page that does not make sense, fret not, it is either bad code or something in progress. This blog is powered by **Jekyll** and **Github Pages** (for the curious).
+Just for myself to note, these are the features that I would built in the future if time and energy permits. If you see something that is blank or wandered into a page that does not make sense, fret not, it is either bad code or something in progress. This blog is powered by **Jekyll** and **Github Pages** (for those who are curious).
 
 1) Project Page - A link to all the other websites where my projects exists
 
@@ -52,6 +52,6 @@ Just for myself to note, these are the features that I would built in the future
 
 4) Book Reviews - A book review page, where I rank all the favourite books that I read + Snippets of favourite quotes
 
-As time passes, more feature ideas will be added. Oh, and this will be the only post that I will edit frequently without leaving notes along the way along the way along the way along the way along the way along the way along the way along the way along the way.
+As time passes, more feature ideas will be added.
 
-Feel free to suggest/recommend me features at liewyyjovin@gmail.com. <i class="em em-smile"></i>
+Feel free to suggest/recommend me features and ideas at liewyyjovin@gmail.com. <i class="em em-smile"></i>
